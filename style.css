@@ -1,0 +1,69 @@
+#tituloCentrado{
+    text-align: center;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color:rgb(204, 245, 143) ;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    letter-spacing: 0.03em;
+    line-height: 1.6;
+}
+
+#titulo{
+    text-align: center;
+    font-size:40px;
+    color: rgb(209, 250, 149);
+    margin-top: 10px;
+    font-weight: 100;
+}
+
+.contenedor{
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;   
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+
+.contenedor .tarjeta{
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(240, 231, 106, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    border: 2px solid rgb(245, 132, 79);
+}
+
+
+
+.contenedor .tarjeta img{
+    width: 330px;
+    height: 220px;
+}
+
+
+
+.contenedor .tarjeta p{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.contenedor .tarjeta a{
+    color: #3498db;
+}
+
+h1{
+    color: rgb(245, 132, 79);
+}
